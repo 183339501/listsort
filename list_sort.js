@@ -1,12 +1,12 @@
 ;(function ($) {
 	$.fn.sort = function (options) {
 		var options = $.extend({
-			sort_by : "p",
-			item : "div",
-			order : "asc",
-			is_num : false,
+			sort_by      : "p",
+			item         : "div",
+			order        : "asc",
+			is_num       : false,
 			sort_by_attr : false,
-			attr_name : ""
+			attr_name    : ""
 		},options);
 
 		return this.each(function () {
@@ -44,5 +44,5 @@
 			}	
 		});
 	}
-}(jQuery))
+}(jQuery));
 
